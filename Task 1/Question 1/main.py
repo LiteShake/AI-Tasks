@@ -12,9 +12,6 @@ def ReadText( textfile ) :
 
 def ParseCSV( data ) :
 
-    csvdata = [[]]      # empty 2d list
-    
-
     # two pointers to traverse the string and slice it accordingly
     ptr1 = 0 ;      
     ptr2 = 0 ;
@@ -32,7 +29,7 @@ def ParseCSV( data ) :
         try :  dataptr2 = int(dataptr2) 
         except : pass
 
-        # check if both pointer datatype are not equal and that data is not "."
+        # check if both pointer datatype are not equal and that data is not "." or if the pointer 2 reached the end
         if (type( dataptr1 ) != type( dataptr2 ) and dataptr2 != ".") or (ptr2 == len( data ) -1)  :
             
             if( ptr2 == len( data ) -1  ) : ptr2 += 1
