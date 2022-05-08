@@ -37,6 +37,8 @@ def FindAtleastSixLength( data ) :
     return six_length
 
 
+# ADDED ALL THE PROCESSED WORDS IN A DICTIONARY WITH THE NUMBER OF THEIR OCCURENCES
+# AND DECIDED THE MOST FREQUENT
 def FindMostFreq( data ) :
 
     count = {}
@@ -59,7 +61,8 @@ def FindMostFreq( data ) :
     
     for i in keys :
 
-        if ( ( count[i] == count[ maxwords[0] ] ) and count[i] not in maxwords ) :
+        if ( ( count[i] == count[ maxwords[0] ] ) and i not in maxwords ) :
+
             maxwords.append( i )
         
         elif ( count[i] > count[ maxwords[0] ] ) :
