@@ -1,0 +1,24 @@
+Machine Learning
+
+Machine learning is a technique where machines follow an algorithm to learn data and methods to perform decision making, predicting and solving problems by their own. Machine Learning has a lot of applications these days from small tasks to big tasks. 
+
+There are mainly three types of machine learning approaches¡­
+
+Supervised Learning is where the data that is getting fed to the machine is labeled and is already classified as parts. The machine uses the classified data and does some statistics and give out the results and predictions.
+
+Unsupervised Learning is where the data getting fed is not labeled and classified so we need to run a classification algorithms like Logistic Regression, SVMs, Naive Bayes .. etc to classify and label and divide the dataset into parts and do the machine learning to do the estimations and calculations.
+
+Reinforcement Learning is where the machine learns by itself by the mistakes it made before just like how humans learn most of the things. This type of machine learning is based on the dopamine reward system in the brain. Say we have a integer value ¡°points¡± If the machine gives undesired results, the points decreases and the machine is sad and learns that it should not give said results and give the results that increase the ¡°points¡±.
+
+Before making the machine learn we should make sure the datasets (food) that we are feeding in to the are properly processed (cooked) so that it is easy for the machine to process (digest) the data and give output and predictions. The steps to be done before machine learning are..
+
+
+1.Data reading is reading the data from the files.
+
+2.Data preprocessing requires getting the datasets properly ready for the computer to do machine learning.
+
+3.Data splitting for training and testing.
+
+4.Training the model for predictions and calculations.
+
+5.Testing and evaluating the model.
